@@ -14,9 +14,9 @@
 pacman -S python3 python3-pip
 # 克隆项目
 git clone --depth=0 https://github.com/Qs315490/pkgm.git
-cd pkgm
+cd pkgm/src
 # 安装依赖
-pip3 install -r requirements.txt
+pip3 install -r ../requirements.txt
 # 启动程序
 python3 main.py help
 ```
