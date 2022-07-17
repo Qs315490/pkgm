@@ -1,0 +1,11 @@
+cache_count: 3
+cache_dir: .
+repo:
+- enable: false
+  src: ./repo
+  type: dir
+- src: Notsfsssf/pixez-flutter
+  type: github
+- file: v2rayNG_[1-9.]*_arm64-v8a.apk # 支持正则表达式
+  src: 2dust/v2rayNG
+  type: github
